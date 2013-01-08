@@ -197,7 +197,7 @@ void Character::processAttacks()
         knuckleDamage.range = (getSize() < DEFAULT_TILE_LENGTH) ?
                     DEFAULT_TILE_LENGTH : getSize();
 
-        AutoAttack knuckleAttack(knuckleDamage, 7, 3);
+        AutoAttack knuckleAttack(knuckleDamage, 7, 7);
         mAutoAttacks.add(knuckleAttack);
     }
 
